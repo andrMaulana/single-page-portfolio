@@ -31,7 +31,7 @@ export const HeroSection = () => {
           </div>
       </div>
       <div className="max-w-lg mx-auto">
-      <h1 className="font-serif font-semibold md:text-5xl text-3xl text-center mt-8 tracking-wide">Hai I'm Andri Maulana</h1>
+      <h1 className="font-serif font-semibold md:text-5xl text-3xl text-center mt-8 tracking-wide">Building Exceptional User Experiences</h1>
       <p className="mt-4 text-center text-white/60 md:text-lg">
         I specialize in transforming designs into functional,high-performing web applications. Let's discuss your next project.
       </p>
