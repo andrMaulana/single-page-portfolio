@@ -54,7 +54,7 @@ export const ProjectsSection = () => {
           Real-world Results
         </p>
         </div>
-        <h2 className="font-serif text-3xl text-center mt-6">Featured Projects</h2>
+        <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">Featured Projects</h2>
         <p className="text-center text-white/60 mt-4">See how I transformed concept into engaging digital experiences.</p>
         <div className="mt-10 flex flex-col gap-20">
           {portfolioProjects.map(project => (
