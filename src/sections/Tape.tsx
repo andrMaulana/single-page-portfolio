@@ -1,3 +1,5 @@
+import StarIcon from '@/assets/icons/star.svg';
+
 const words = [
   "Performant",
   "Accessible",
@@ -15,7 +17,8 @@ export const TapeSection = () => {
   return <div>
     {words.map(word => (
       <div key={word}>
-
+        <span>{word}</span>
+        <StarIcon />
       </div>
     ))}
   </div>
