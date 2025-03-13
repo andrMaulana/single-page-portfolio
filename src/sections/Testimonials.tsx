@@ -47,9 +47,10 @@ export const TestimonialsSection = () => {
       <div className="container"> 
     <SectionHeader eyebrow="happy Clients" title="What Clients Say About me" description="Don't just take my word for it. See what my clients have to say about my work.
 "/>
-    <div>
+    <div className="mt-16 flex">
+      <div className="flex flex-none">
       {testimonials.map(testimonial => (
-     <Card key={testimonial.name}>
+     <Card key={testimonial.name} className="max-w-xs">
           <div className="flex gap-4 items-center">
           <div className="size-14 bg-slate-700 inline-flex items-center justify-center rounded-full ">
             <Image src={testimonial.avatar} alt={testimonial.name} className="max-h-full" />
@@ -62,6 +63,7 @@ export const TestimonialsSection = () => {
           <p className="mt-4 text-sm">{testimonial.text}</p>
         </Card>
       ))}
+      </div>
     </div>
     </div>
   </div>
