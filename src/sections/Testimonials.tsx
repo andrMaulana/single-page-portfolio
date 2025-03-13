@@ -55,11 +55,11 @@ export const TestimonialsSection = () => {
             <Image src={testimonial.avatar} alt={testimonial.name} className="max-h-full" />
           </div>
             <div>
-              <div>{testimonial.name}</div>
-              <div>{testimonial.position}</div>
+              <div className="font-semibold">{testimonial.name}</div>
+              <div className="text-sm text-white/40">{testimonial.position}</div>
             </div>
           </div>
-          <p>{testimonial.text}</p>
+          <p className="mt-4 text-sm">{testimonial.text}</p>
         </Card>
       ))}
     </div>
