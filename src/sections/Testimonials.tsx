@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
       <div className="container"> 
     <SectionHeader eyebrow="happy Clients" title="What Clients Say About me" description="Don't just take my word for it. See what my clients have to say about my work.
 "/>
-    <div className="mt-16 flex">
+    <div className="mt-16 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
       <div className="flex gap-8 flex-none">
       {testimonials.map(testimonial => (
      <Card key={testimonial.name} className="max-w-xs">
